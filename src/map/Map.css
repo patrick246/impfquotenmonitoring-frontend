@@ -1,0 +1,30 @@
+.map {
+	margin: 32px 64px;
+}
+
+.map .state {
+	fill: transparent;
+	stroke: #ffffff;
+	stroke-width: 2;
+}
+
+.map .state:hover {
+	stroke-width: 5;
+	fill: rgba(255, 255, 255, .5);
+}
+
+.map .state.selected {
+	fill: #ffffff;
+}
+
+.attribution {
+	text-align: center;
+	color: rgba(255, 255, 255, .85);
+	font-size: 14px;
+}
+
+.attribution a {
+	color: rgba(255, 255, 255, .85);
+}
+
+

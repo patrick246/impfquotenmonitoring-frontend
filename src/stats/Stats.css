@@ -1,0 +1,43 @@
+.stats {
+	color: white;
+	flex-grow: 1;
+	margin: 0 32px;
+}
+
+.stats h1 {
+	font-size: 48px;
+	border-bottom: 12px solid white;
+	display: inline-block;
+}
+
+.vaccinatedTotal {
+	font-size: 64px;
+}
+
+.vaccinatedTotalText {
+	font-size: 32px;
+}
+
+.progressBar {
+	margin: 32px 0;
+	height: 32px;
+	width: 90%;
+	border: 5px solid white;
+	position: relative;
+}
+
+.progressBarProgress {
+	background-color: white;
+	height: 32px;
+}
+
+.progressBarText {
+	position: absolute;
+	top: 4px;
+	left: calc(50% - 40px);
+	width: 80px;
+
+	background-color: #1fc6cc;
+	font-weight: bold;
+	text-align: center;
+}
